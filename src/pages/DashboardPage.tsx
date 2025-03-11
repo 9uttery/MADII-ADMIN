@@ -1,13 +1,13 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Header from '../components/layout/Header';
-import Footer from '../components/layout/Footer';
-import HomePage from './HomePage';
-import OtherPage from './OtherPage';
+import Footer from '../components/layout/Footer'
+import HomePage from './HomePage'
+import OtherPage from './Otherpage'
 
 const DashboardPage: React.FC = () => {
   return (
-    <div>
+    <div className="min-h-screen flex flex-col">
       <Header />
       <main style={{ padding: '1rem' }}>
         <Routes>
